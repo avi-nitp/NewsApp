@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/india"
+            android:title="India News">
+        <menu>
+                <item
+                android:id="@+id/goo_in"
+                android:title="Google India News"
+                    android:icon="@drawable/ic_googlenews"/>
+            <item
+                android:id="@+id/times"
+                android:title="The Times Of India"
+                android:icon="@drawable/ic_timesofindia"/>
+            <item
+                android:id="@+id/hindu"
+                android:title="The Hindu" />
+        </menu>
+      </item>
+
+        <item
+            android:id="@+id/global"
+            android:title="Global News">
+            <menu>
+                <item
+                    android:id="@+id/bbc"
+                    android:title="BBC News"/>
+                <item
+                    android:id="@+id/cnn"
+                    android:title="CNN" />
+                <item
+                    android:id="@+id/tele"
+                    android:title="The Telegraph" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/sports"
+            android:title="Sports News">
+            <menu>
+                <item
+                    android:id="@+id/espn_cric"
+                    android:title="ESPN Cricket" />
+                <item
+                    android:id="@+id/espn"
+                    android:title="ESPN"/>
+
+                <item
+                    android:id="@+id/sb"
+                    android:title="The Sport Bible" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/tech"
+            android:title="Tech News">
+            <menu>
+                <item
+                    android:id="@+id/techc"
+                    android:title="TechCrunch"/>
+                <item
+                    android:id="@+id/hacker"
+                    android:title="Hacker News" />
+                <item
+                    android:id="@+id/gadget"
+                    android:title="Engadget" />
+                <item
+                    android:id="@+id/techr"
+                    android:title="TechRadar" />
+            </menu>
+        </item>
+    <item
+        android:title="Science-and-Nature">
+        <menu>
+            <item
+                android:id="@+id/ng"
+                android:title="National Geographic"/>
+            <item
+                android:id="@+id/nsci"
+                android:title="New Scientist" />
+            <item
+                android:id="@+id/nbig"
+                android:title="Next Big Future" />
+
+        </menu>
+    </item>
+
+
+</menu>
